@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internet Study Guide</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- google fonts -->
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Study Guide</h1>
+      <label for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="hamburger">
+          <div class="line top"></div>
+          <div class="line middle"></div>
+          <div class="line bottom"></div>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a title="Network Section" href="#network">Network</a></li>
+            <li>
+              <a title="Protocols Section" href="#protocols">Protocols</a>
+            </li>
+            <li><a title="Internet Section" href="#internet">Internet</a></li>
+            <li>
+              <a title="Questions Section" href="#markuplanguages">Markup Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </label>
+    </header>
+    <main>
+      <section id="network">
+        <h2>Network</h2>
+        <div class="cards-container">
+          <div class="flashcard">
+            <div class="front">
+              <h3>Network</h3>
+            </div>
+            <div class="back">
+              A network is a group of two or more computers or other electronic
+              devices that are interconnected for the purpose of exchanging data
+              and sharing resources.
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front"><h3>Client</h3></div>
+            <div class="back">
+              <p>
+                A client is a computer that connects to and uses the resources
+                of a remote computer, or server.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>Server</h3>
+            </div>
+            <div class="back">
+              <p>
+                A server is a computer program or device that provides a service to another computer program and its user, also known as the client. 
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+            <h3>Routers & Hubs</h3>
+          </div>
+            <div class="back">
+              <p>
+                A router is a physical or virtual appliance that passes information between two or more packet-switched computer networks. A network hub is a node that broadcasts data to every computer or Ethernet-based device connected to it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="protocols">
+        <h2>Protocols</h2>
+        <div class="cards-container">
+          <div class="flashcard">
+            <div class="front"><h3>Protocols</h3></div>
+            <div class="back">
+              <p>
+                Protocols are rules that describe how clients and servers communicate with each other over a network. There are many different protocols with different purposes. These protocols are implemented by operating systems, browsers, and networking devices.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>File Transfer Protocol</h3>
+            </div>
+            <div class="back">
+              <p>
+                FTP is a set of rules that for exchanging files over the internet. Unlike HTTP which is used to ask for the entire webpage and it's files to display them, FTP is used only to move a file from one computer to another. FTP is commonly used by web developers when they want to tranfer their local files from their computer to the server and vice versa.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+            <h3>E-mail Protocol</h3>
+          </div>
+            <div class="back">
+              <p>
+                E-mails use a different protocol than web pages. For out-going emails, Simple Mail Transfer Protocol(SMTP) is used. For in-coming email, Post Office Protocol(POP) and Internet Message Access Protocol(IMAP) can be used.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>Hyper Text Transfer Protocol</h3>
+            </div>
+            <div class="back">
+              <p>
+                Web browsers and web servers communicate using HTTP. HTTP has rules for exchanging different types of files like text, images, audio, and video. When a browser is directed to a hyperlink, an HTTP request is built and sent to the server of that URL which then processes the request and responds by sending the requested files.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="internet">
+        <h2>Internet</h2>
+        <div class="cards-container">
+          <div class="flashcard">
+            <div class="front">
+              <h3>Internet</h3>  
+            </div>
+            <div class="back">
+              <p>
+                The internet is an interconnected network of computer networks that spans the globe. Today it is a major part of our lives.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>World Wide Web</h3>  
+            </div>
+            <div class="back">
+              <p>
+                The World Wide Web -- also known as the web, WWW or W3 -- refers to all the public websites or pages that users can access on their local computers and other devices through the internet. These pages and documents are interconnected by means of hyperlinks that users click on for information.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>First Graphical Browser</h3>  
+            </div>
+            <div class="back">
+              <p>Mosaic 
+                Developed by Marc Andreessen and graduate students working at the National Center for Supercomputing Applications (NCSA) at the University of Illinois
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>W3C Recommendations</h3>
+            </div>
+            <div class="back">
+              <p>
+                The World Wide Web Consortium (W3C)Takes a proactive role in developing recommendations and prototype technologies related to the Web. These recommendations are not rules but guidelines. Major software companies that build web browsers, such as Microsoft, do not always follow W3C Recommendations. This makes life challenging for web developers because not all browsers will display a web page in exactly the same way.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="markuplanguages">
+        <h2>Markup Languages</h2>
+        <div class="cards-container">
+          <div class="flashcard">
+            <div class="front">
+              <h3>Markup Languages</h3>
+            </div>
+            <div class="back">
+              <p>
+                When you use a highlighter to mark a word in a textbook, you are marking it up. If you create a system where different color highlights indicate different types of information, you will have created a markup language.
+
+In the context of the internet and computers, a markup language is a system for marking up or annotating a digital document so that the information it it can be structured for more easy access and manipulation.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>Standard Generalized Markup Languages</h3> 
+            </div>
+            <div class="back">
+              <p>
+                SGML is a standard for defining a markup language and specifying tag sets. SGML is not itself a markup langauge. HTML and XML are based on SGML. The latest version of HTML5 however is no longer based on SGML syntax despite the similarity.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>HTML</h3>
+            </div>
+            <div class="back">
+              <p>
+                HTML is the language used for creating web pages and web applications. HTML has a specified tag set for semantically describing the structure of a web page. HTML elements are the building blocks of a web page and are defined by tags written using angle brackets.
+              </p>
+            </div>
+          </div>
+          <div class="flashcard">
+            <div class="front">
+              <h3>XML, XHTML, and HTML5</h3>
+            </div>
+            <div class="back">
+              <p>
+                XML is a human and machine readable markup language for storing and transporting data. It looks very similar to HTML, having opening and closing tags with attributes, but the tags are user defined. Developers can create any tag they need to describe information. All xml documents must have a root element. XML is not a replacement or alternative to HTML.
+
+XHTML is an evolution of HTML with the formatting strengths of HTML 4.01 and the structure and extensibility strengths of XML. The syntax for XHTML is more strict than that of HTML. XHTML has now been replaced by HTML5.
+
+HTML5 is the latest standard markup language for the web. It incorporates features of it's predecessors and adds new elements, provides new features, and is backward compatible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>&copy; 2023 LAPC</footer>
+  </body>
+</html>
